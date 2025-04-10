@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akoang portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+    </div>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#work" class="nav-link">Work</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Hello, I'm">Hello, I'm</h1>
+                <h2 class="name glitch-effect" data-text="KENT">KENT</h2>
+                <p class="subtitle">Creative Developer & Designer</p>
+                <div class="cta-buttons">
+                    <a href="#work" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="okay.jpg" alt="Profile">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a BSIT student with a passion for technology, creativity, and problem-solving. I enjoy exploring the world of programming and design, always eager to learn new things and build meaningful digital experiences. Whether it's coding a new feature or designing a user-friendly interface, I aim to bring ideas to life with both logic and creativity.</p>
+                    <div class="skills-list">
+                        <span>Video Editing</span>
+                        <span>Photo Editing</span>
+                        <span>C++ Programming</span>
+                        <span>HTML/CSS</span>
+                        <span>PC Building</span>
+                        <span>Web Development</span>
+                        <span>UI/UX Design</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="number">5+</span>
+                        <span class="label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">50+</span>
+                        <span class="label">Projects Completed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="section-header">
+                <h2>Featured Work</h2>
+                <div class="line"></div>
+            </div>
+            <div class="work-grid">
+                <div class="work-item">
+                    <div class="work-image">
+                        <img src="okay.jpg" alt="Project 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>ForumFan Development</h3>
+                        <p>Web Development</p>
+                        <a href="#" class="btn small">View Project</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-image">
+                        <img src="okay.jpg" alt="Project 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>School Boy</h3>
+                        <p>Game Development</p>
+                        <a href="#" class="btn small">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>kenteyy2@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+63915433569</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/xyranth-the-great/portfolio" target="blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/kenteyy2"target="blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/kentflamz"target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/zakxcs/#"target="blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Kente. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
